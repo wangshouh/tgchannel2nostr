@@ -1,6 +1,6 @@
 {
   "name": "tgchannel2nostr",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "devDependencies": {
     "wrangler": "2.9.0"
   },
@@ -8,5 +8,8 @@
   "scripts": {
     "start": "wrangler dev",
     "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "@noble/secp256k1": "^1.7.1"
   }
 }
